@@ -13,7 +13,7 @@ const desconto = 10
 const valorDesconto = 700
 const valorFinal= 6300
 const troco = 700
-const resumo=(`==================================================
+const resumo = console.log(`==================================================
 TECHSTORE SISTEMAS
 RESUMO DO PEDIDO
 ==================================================
@@ -36,7 +36,7 @@ Troco: R$ ${troco}
 
 Obrigado pela compra!
 ==================================================`)
-console.log(resumo)
+
 
 
 
