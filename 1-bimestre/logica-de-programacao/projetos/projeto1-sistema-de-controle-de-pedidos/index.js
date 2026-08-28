@@ -34,7 +34,9 @@ Valor final: R$ ${valorFinal}
 
 Valor pago: R$ ${valorPago}
 Troco: R$ ${troco}
+
 Obrigado pela compra!
+
 ==================================================`
 
 )
