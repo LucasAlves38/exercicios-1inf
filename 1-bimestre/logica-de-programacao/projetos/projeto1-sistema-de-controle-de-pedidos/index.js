@@ -1,5 +1,4 @@
 // CRIE SUA SOLUÇÃO ABAIXO ================
-console.log
 const cliente = "Mariana Silva"
 const cidade="Fortaleza"
 const produto="Notebook Pro"
@@ -8,12 +7,14 @@ const preco = (3500)
 const quantidade =(2)
 const descontoPercentual =(10)
 const valorPago = 7000
-const subtotal =7000
+const subtotal = 7000
 const desconto = 10
 const valorDesconto = 700
 const valorFinal= 6300
 const troco = 700
-const resumo = console.log(`==================================================
+const resumo = `Cliente: ${cliente} fez um pedido de um Produto: ${produto}, pagando Subtotal: R$ ${valorFinal} e recebendo R$ ${troco} de troco  `
+
+console.log(`==================================================
 TECHSTORE SISTEMAS
 RESUMO DO PEDIDO
 ==================================================
@@ -33,11 +34,10 @@ Valor final: R$ ${valorFinal}
 
 Valor pago: R$ ${valorPago}
 Troco: R$ ${troco}
-
 Obrigado pela compra!
-==================================================`)
+==================================================`
 
-
+)
 
 
 
