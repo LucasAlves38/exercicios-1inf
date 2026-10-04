@@ -57,7 +57,7 @@ break
 default: statusMensagem = "Status desconhecido"
  }
 const resumo = `Cliente: ${cliente}
-Item: ${prato} x${quantidade}
+Item: ${prato} 
 Subtotal: R$ ${subtotal}
 ${freteStatus}
 ${pagamentoMensagem}
